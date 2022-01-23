@@ -20,7 +20,7 @@ img {
  width: auto;
 }
 .header {
-    background-image:  url(/img/bg-header.jpg);
+    background-image:  url(img/bg-header.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -202,28 +202,28 @@ img {
     transition: transform calc(var(--d) * 2) var(--e);
  }
   .card:nth-child(1):before {
-    background-image: url(/img/fishing.jpg);
+    background-image: url(img/fishing.jpg);
  }
   .card:nth-child(2):before {
-    background-image: url(/img/mountings.jpg);
+    background-image: url(img/mountings.jpg);
  }
   .card:nth-child(3):before {
-    background-image: url(/img/mushrooms.jpg);
+    background-image: url(img/mushrooms.jpg);
  }
   .card:nth-child(4):before {
-    background-image: url(/img/river.jpg);
+    background-image: url(img/river.jpg);
  }
  .card:nth-child(5):before {
-  background-image: url(/img/pip-ivan.jpg);
+  background-image: url(img/pip-ivan.jpg);
 }
 .card:nth-child(6):before {
-  background-image: url(/img/trout.jpg);
+  background-image: url(img/trout.jpg);
 }
 .card:nth-child(7):before {
-  background-image: url(/img/paragliding.jpg);
+  background-image: url(img/paragliding.jpg);
 }
 .card:nth-child(8):before {
-  background-image: url(/img/rafting.jpg);
+  background-image: url(img/rafting.jpg);
 }
   .content {
     position: relative;
@@ -847,7 +847,7 @@ img {
   }
   #works .carousel-button-right a {
     float: right;
-    background: url(/img/icons/chevron-left-solid.svg);
+    background: url(img/icons/chevron-left-solid.svg);
     background-size: cover;
     transform: rotate(180deg);
     width: 30px;
