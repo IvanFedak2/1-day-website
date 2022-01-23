@@ -20,7 +20,7 @@ img {
  width: auto;
 }
 .header {
-    background-image:  url(img/bg-header.jpg);
+    background-image:  url(/img/bg-header.jpg);
     background-size: cover;
     height: 100vh;
 }
@@ -60,6 +60,7 @@ img {
     top: 20% !important;
     left: 74.5% !important;
     cursor: pointer;
+
 }
 .burger_mobile {
     display: block;
@@ -145,6 +146,9 @@ img {
     margin: 0 auto;
     font-family: var(--font-sans);
  }
+ .btn-check:focus+.btn-outline-light, .btn-outline-light:focus {
+   box-shadow: none;
+ }
   @media (min-width: 600px) {
     .our-tours {
       grid-template-columns: repeat(2, 1fr);
@@ -198,28 +202,28 @@ img {
     transition: transform calc(var(--d) * 2) var(--e);
  }
   .card:nth-child(1):before {
-    background-image: url(img/fishing.jpg);
+    background-image: url(/img/fishing.jpg);
  }
   .card:nth-child(2):before {
-    background-image: url(img/mountings.jpg);
+    background-image: url(/img/mountings.jpg);
  }
   .card:nth-child(3):before {
-    background-image: url(img/mushrooms.jpg);
+    background-image: url(/img/mushrooms.jpg);
  }
   .card:nth-child(4):before {
-    background-image: url(img/river.jpg);
+    background-image: url(/img/river.jpg);
  }
  .card:nth-child(5):before {
-  background-image: url(img/pip-ivan.jpg);
+  background-image: url(/img/pip-ivan.jpg);
 }
 .card:nth-child(6):before {
-  background-image: url(img/trout.jpg);
+  background-image: url(/img/trout.jpg);
 }
 .card:nth-child(7):before {
-  background-image: url(img/paragliding.jpg);
+  background-image: url(/img/paragliding.jpg);
 }
 .card:nth-child(8):before {
-  background-image: url(img/rafting.jpg);
+  background-image: url(/img/rafting.jpg);
 }
   .content {
     position: relative;
@@ -261,8 +265,8 @@ img {
     background-color: #f88d00;
  }
   .btn:focus {
-    outline: 1px dashed yellow;
     outline-offset: 3px;
+    border: none;
  }
   @media (hover: hover) and (min-width: 600px) {
     .card:after {
@@ -319,6 +323,7 @@ img {
    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
    -webkit-background-clip: text;
+   background-clip: text;
    -webkit-text-fill-color: transparent;
  }
  .fa-linkedin-in {
@@ -364,35 +369,509 @@ img {
 
  @media (min-width: 575px) {
   .btn-header {
-    background-color: yellow;
-    color: black !important;
- }
- .header__buttons  {
-   justify-content: center;
-   gap: 20px;
- }
+      background-color: yellow;
+      color: black !important;
+  }
+  .header__buttons  {
+      justify-content: center;
+      gap: 20px;
+  }
  }
 
  @media (min-width: 1000px) {
-  .header__description p {
+    .header__description p {
+        position: absolute;
+        top: 25%;
+        left: 61%;
+    }
+    .btn-header-left {
+        position: absolute;
+        top: 40%;
+        left: 70%;
+    }
+    .btn-header-right {
+        position: absolute;
+        top: 40%;
+        left: 80%;
+    }
+    .btn-header:hover {
+        background-color: limegreen;
+        color: yellow !important; 
+    }
+
+    .dropdown-item:hover {
+      background-color: limegreen;
+      border-radius: 50px;
+    }
+    .btn-outline-light:focus {
+      box-shadow: none !important;
+    
+   }
+ }
+  a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+  }
+  
+  button {
+    border-radius: 20px;
+    border: 1px solid limegreen;
+    background-color: #09ff00;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+  }
+  .sign-in-form-desktop {
+    background: linear-gradient(to left, #08f700, #fbff00);
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 150px;
+    height: 45px;
+    color: black;
+    cursor: pointer;
+      font-size: 18px;
+      font-weight: 900;
+      transition-duration: 0.25s;
+  }
+  
+  button:active {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+  }
+  form {
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+  }
+  
+  input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+      -webkit-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+        0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-bottom: 50px;
+  }
+  .form-heading {
+    text-align: center;
+    margin: 30px 40px;
+  }
+  .form-container {
     position: absolute;
-    top: 25%;
-    left: 61%;
+    top: 0;
+    height: 100%;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
 
-  .btn-header-left {
+  
+  .sign-in-container {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+  }
+  
+  .container.right-panel-active .sign-in-container {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  
+  .sign-up-container {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .container.right-panel-active .sign-up-container {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    -webkit-animation: show 0.6s;
+    animation: show 0.6s;
+  }
+  
+  @-webkit-keyframes show {
+    0%, 49.99% {
+      opacity: 0;
+      z-index: 1;
+    }
+    
+    50%, 100% {
+      opacity: 1;
+      z-index: 5;
+    }
+  }
+  
+  @keyframes show {
+    0%, 49.99% {
+      opacity: 0;
+      z-index: 1;
+    }
+    
+    50%, 100% {
+      opacity: 1;
+      z-index: 5;
+    }
+  }
+  
+  .overlay-container {
     position: absolute;
-    top: 40%;
-    left: 70%;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    z-index: 100;
   }
-  .btn-header-right {
+  
+  .container.right-panel-active .overlay-container{
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  
+  .overlay {
+    background: #a6ff41;
+    background: linear-gradient(to right, #08f700, #fbff00);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: black;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  }
+  
+  .container.right-panel-active .overlay {
+      -webkit-transform: translateX(50%);
+      transform: translateX(50%);
+  }
+  
+  .overlay-panel {
     position: absolute;
-    top: 40%;
-    left: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
   }
-  .btn-header:hover {
-    background-color: limegreen;
-    color: yellow !important; 
+  
+  .overlay-left {
+    -webkit-transform: translateX(-20%);
+    transform: translateX(-20%);
   }
+  
+  .container.right-panel-active .overlay-left {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
- 
+  
+  .overlay-right {
+    right: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  
+  .container.right-panel-active .overlay-right {
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+  }
+  
+  .social-container {
+    margin: 20px 0;
+  }
+  
+  .social-container a {
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+  }
+
+  /**********************************/
+
+  @media (max-width: 600px) {
+      #container,
+      .form-heading {
+        display: none;
+      }
+      form {
+        background-color: transparent;
+      }
+    }
+
+
+    /*************************/
+
+    .mobile-form {
+      color: black;
+      font-weight: 300;
+      width: 100%;
+      
+   }
+    .mobile-form ::-webkit-input-placeholder {
+      font-family: 'Source Sans Pro', sans-serif;
+      color:black;
+      font-weight: 300;
+   }
+    .mobile-form :-moz-placeholder {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: black;
+      opacity: 1;
+      font-weight: 300;
+   }
+    .mobile-form ::-moz-placeholder {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: black;
+      opacity: 1;
+      font-weight: 300;
+   }
+    .mobile-form :-ms-input-placeholder {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: black;
+      font-weight: 300;
+   }
+    .wrapper {
+      background: -webkit-linear-gradient(top left,rgba(51, 255, 1, 0.993) 0%,rgb(251, 255, 5) 100%);
+      background: -moz-linear-gradient(top left,rgba(51, 255, 1, 0.993) 0%,rgb(251, 255, 5) 100%);
+      background: -o-linear-gradient(top left,rgba(51, 255, 1, 0.993) 0%,rgb(251, 255, 5) 100%);
+      background: linear-gradient(to bottom right,rgba(51, 255, 1, 0.993) 0%,rgb(251, 255, 5) 100%);
+      display: flex;
+      overflow: hidden;
+   }
+    .wrapper.form-success .container h1 {
+      transform: translateY(85px);
+   }
+    .container-mobile-form {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 80px 0;
+      height: 400px;
+      text-align: center;
+      
+   }
+    .container-mobile-form .mobile-form-header {
+      font-size: 40px;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-put;
+      font-weight: 200;
+   }
+   .form-mobile {
+      padding: 20px 0;
+      position: relative;
+      z-index: 2;
+   }
+    form input {
+      display: block;
+      appearance: none;
+      outline: 0;
+      background-color: rgb(255, 255, 255);
+      width: 250px;
+      border-radius: 3px;
+      padding: 10px 15px;
+      margin: 0 auto 10px auto;
+      text-align: center;
+      font-size: 18px;
+      color: rgb(3, 0, 0);
+      transition-duration: 0.25s;
+      font-weight: 300;
+   }
+
+   @media (min-width: 320px) {
+    form input {
+      width: 150px;
+      border-radius: 40px;
+    }
+   }
+    form input:hover {
+      background-color: rgba(255,255,255,0.4);
+   }
+    form input:focus {
+      background-color: rgba(128, 125, 125, 0.445);
+      width: 300px;
+   }
+    form button {
+      appearance: none;
+      background: linear-gradient(to left, #08f700, #fbff00);
+      border-radius: 20px;
+      outline: 0;
+      border: 0;
+      padding: 10px 15px;
+      color: black;
+      width: 150px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 900;
+      transition-duration: 0.25s;
+   }
+    form button:hover {
+      background-color: #f5f7f9;
+   }
+  
+   @media (min-width: 601px) {
+    #container,
+    .form-heading {
+      display: block;
+    }
+      .mobile-form {
+        display: none;
+      }
+  }
+
+  /*CARUSEL*/
+  #works .carousel {
+    max-width: 1200px;
+    margin: 30px auto;
+    width: 100%;
+  }
+  #works .carousel-wrapper {
+    margin: 10px 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  #works .carousel-items {
+    width: 10000px;
+    position: relative;
+  }
+  #works .carousel-block {
+    float: left;
+    width: 270px;
+    height: 100%;
+    overflow: hidden;
+    padding: 10px;
+  }
+  #works .carousel-block .work {
+    display: block;
+  }
+  #works .carousel-block .work img {
+    height: 200px;
+  }
+  #works .carousel-button-left a,
+  #works .carousel-button-right a {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #works .carousel-button-left a {
+    float: left;
+    background: url(img/icons/chevron-left-solid.svg);
+    background-size: cover;
+    width: 30px;
+  }
+  #works .carousel-button-right a {
+    float: right;
+    background: url(/img/icons/chevron-left-solid.svg);
+    background-size: cover;
+    transform: rotate(180deg);
+    width: 30px;
+    margin-left: 10px;
+  }
+
+  @media (min-width: 320px) {
+    #works {
+      display: none;
+    }
+  }
+  @media (min-width: 800px) {
+    #works {
+      display: block;
+    }
+
+
+    #works .carousel-button-right a {
+      margin-left: 0  ;
+    }
+    .our-tours {
+      display: none;
+    }
+  }
+
+
+
