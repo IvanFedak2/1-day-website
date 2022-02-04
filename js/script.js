@@ -34,3 +34,4 @@ function auto_right(carusel){
 }
 $(document).on('mouseenter', '.carousel', function(){$(this).addClass('hover')})
 $(document).on('mouseleave', '.carousel', function(){$(this).removeClass('hover')})
+
