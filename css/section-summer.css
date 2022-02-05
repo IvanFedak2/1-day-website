@@ -12,7 +12,7 @@
 
 /* Intro (commune) */   
 #section-intro {   
-    background-image:url('/img/background-summer-section.jpg');
+    background-image:url('img/background-summer-section.jpg');
     background-size:cover;  
     background-position:center center; 
     background-repeat:no-repeat;
