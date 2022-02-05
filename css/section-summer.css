@@ -474,7 +474,7 @@
 @media (min-width: 330px) {
     #section-intro .letter { 
         position:absolute; 
-        top: 63%; 
+        top: 45%; 
         left:80%; 
         margin-top:-17em; 
         margin-left:-17em; 
@@ -485,7 +485,7 @@
     }   
     #section-intro .letter2 {
         position:absolute; 
-        top: 56%; 
+        top: 36%; 
         left:70%;
         margin-top:-17em; 
         margin-left:-17em; 
@@ -496,7 +496,7 @@
     }
     #section-intro .letter3 {
         position:absolute; 
-        top: 72%; 
+        top: 52%; 
         left:112%; 
         margin-top:-17em; 
         margin-left:-17em; 
@@ -507,8 +507,8 @@
     }
     #section-intro .letter4 {
         position:absolute; 
-        top: 82%; 
-        left:137%; 
+        top: 69%; 
+        left:129%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -518,8 +518,8 @@
     }
     #section-intro .letter5 {
         position:absolute; 
-        top: 100%; 
-        left:114%; 
+        top: 78%; 
+        left:104%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -529,7 +529,7 @@
     }
     #section-intro .letter6 {
         position:absolute; 
-        top: 105%; 
+        top: 89%; 
         left:84%; 
         margin-top:-17em; 
         margin-left:-17em; 
@@ -871,3 +871,12 @@
 }
 
 
+@media (min-width: 768px) {
+    .summer-button {
+        top: 20%;
+    }
+    #section-intro .letter6 { 
+        position:absolute; 
+        top: 88.9%; 
+        left:111.5%; 
+}
