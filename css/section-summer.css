@@ -8,15 +8,14 @@
 .secondary_main section.fitscreen { height:100vh;}
 
 
- .secondary_main {
-   background-image:url('img/background-summer-section.jpg');
-    background-size:cover;  
-    background-position:center center; 
-    background-repeat:no-repeat;
+/* Intro (commune) */   
+#section-intro {
+    background-image: url('img/background-summer-section.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;
 }
-
-/* Intro (commune) */   
 
 #section-intro .letter {  
     position:absolute; 
