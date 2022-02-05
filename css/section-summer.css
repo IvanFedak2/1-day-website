@@ -1,0 +1,548 @@
+/* MASTER TEMPLATE */ 
+.secondary_main { position:relative; display:block; z-index:50; overflow:hidden;}
+/* Sections */
+.secondary_main section { position:relative; width:100%;}
+.secondary_main section.dark { color:white;}
+.secondary_main section.dark .layer.back { background-color:#023646;}
+.secondary_main section.min-fitscreen { min-height:100vh;}
+.secondary_main section.fitscreen { height:100vh;}
+
+
+ 
+
+/* Intro (commune) */   
+#section-intro {   
+    background-image:url('/img/background-summer-section.jpg');
+    background-size:cover;  
+    background-position:center center; 
+    background-repeat:no-repeat;
+    height: 100vh;
+}
+
+#section-intro .letter {  
+    position:absolute; 
+    top: 90%; 
+    left:35%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}
+
+#section-intro .letter .letter-back {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter .letter-back svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter .letter-mid { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter .letter-mid svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter .letter-mid .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter .letter-mid .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter svg path.triggered {
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
+
+
+
+
+
+
+#section-intro .letter2 { 
+    position:absolute; 
+    top: 90%; 
+    left:30%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}
+
+#section-intro .letter2 .letter-back2 {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter2 .letter-back2 svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter2 .letter-mid2 { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter2 .letter-mid2 svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter2 .letter-mid2 .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter2 .letter-mid2 .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter2 svg path.triggered {
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
+
+
+
+
+
+
+#section-intro .letter3 { 
+    position:absolute; 
+    top: 90%; 
+    left:50%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}
+
+#section-intro .letter3 .letter-back3 {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter3 .letter-back3 svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter3 .letter-mid3 { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter3 .letter-mid3 svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter3 .letter-mid3 .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter3 .letter-mid3 .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter3 svg path.triggered {
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
+
+
+
+
+#section-intro .letter4 { 
+    position:absolute; 
+    top: 90%; 
+    left:62%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}
+
+#section-intro .letter4 .letter-back4 {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter4 .letter-back4 svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter4 .letter-mid4 { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter4 .letter-mid4 svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter4 .letter-mid4 .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter4 .letter-mid4 .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter4 svg path.triggered {
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
+
+
+
+#section-intro .letter5 { 
+    position:absolute; 
+    top: 90%; 
+    left:74%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}
+
+#section-intro .letter5 .letter-back5 {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter5 .letter-back5 svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter5 .letter-mid5 { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter5 .letter-mid5 svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter5 .letter-mid5 .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter5 .letter-mid5 .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter5 svg path.triggered {           
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
+
+
+
+ 
+#section-intro .letter6 { 
+    position:absolute; 
+    top: 85.9%; 
+    left:87.5%; 
+    margin-top:-17em; 
+    margin-left:-17em; 
+    display:inline-block; 
+    width:20em; 
+    height:20em; 
+    overflow:hidden;
+}   
+
+#section-intro .letter6 .letter-back6 {
+    position:absolute;
+    top:-0.5em;
+    left:-0.5em;
+    width:calc(100% + 1em);
+    width:-webkit-calc(100% + 1em);
+    height:calc(100% + 1em);
+    height:-webkit-calc(100% + 1em);  
+}
+ 
+#section-intro .letter6 .letter-back6 svg { 
+    filter:blur(0.5px); 
+    position:absolute; 
+    top:0.5em; 
+    left:0.5em; 
+    width:calc(100% - 1em); 
+    width:-webkit-calc(100% - 1em); 
+    height:calc(100% - 1em); 
+    height:-webkit-calc(100% - 1em);
+}
+#section-intro .letter6 .letter-mid6 { 
+    position:absolute; 
+    top:-0.5em; 
+    left:-0.5em; 
+    width:calc(100% + 1em); 
+    width:-webkit-calc(100% + 1em); 
+    height:calc(100% + 1em); 
+    height:-webkit-calc(100% + 1em); 
+    background-color:white; 
+    -webkit-mix-blend-mode:darken; 
+    mix-blend-mode:darken;
+}
+#section-intro .letter6 .letter-mid6 svg {
+    filter:blur(0.5px);
+    position:absolute;
+    top:0.5em;
+    left:0.5em;
+    width: 100%;
+    width:-webkit-calc(100% - 1em);
+    height:calc(100% - 1em);
+    height:-webkit-calc(100% - 1em);
+}
+
+#section-intro .letter6 .letter-mid6 .video { 
+    position:absolute;  
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; background-image:url('img/home_c_waves.jpg'); 
+    background-size:cover; 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -webkit-mix-blend-mode:lighten; 
+    mix-blend-mode:lighten; 
+    overflow:hidden;
+}
+
+#section-intro .letter6 .letter-mid6 .video video { 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    object-fit:cover; 
+    overflow:hidden;
+}
+
+#section-intro.seen .letter6 svg path.triggered {
+    transition:stroke-dashoffset 1s ease-in-out 1s;
+    -webkit-transition:stroke-dashoffset 1s ease-in-out 1s;
+    stroke-dashoffset: 0 !important;
+}
