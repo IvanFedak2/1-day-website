@@ -454,11 +454,28 @@
     stroke-dashoffset: 0 !important;
 }
 
-@media (min-width: 320px) {
+.summer-button {
+    position: absolute;
+    top: 87%;
+    left: 20%;
+    text-align: center;
+    background: linear-gradient(to left, #08f700, #fbff00);
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: black;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 900;
+    transition-duration: 0.25s;
+}
+
+
+@media (min-width: 330px) {
     #section-intro .letter { 
         position:absolute; 
-        top: 60%; 
-        left:74%; 
+        top: 63%; 
+        left:80%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -468,8 +485,8 @@
     }   
     #section-intro .letter2 {
         position:absolute; 
-        top: 50%; 
-        left:65%; 
+        top: 56%; 
+        left:70%;
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -480,7 +497,7 @@
     #section-intro .letter3 {
         position:absolute; 
         top: 72%; 
-        left:104%; 
+        left:112%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -491,7 +508,7 @@
     #section-intro .letter4 {
         position:absolute; 
         top: 82%; 
-        left:127%; 
+        left:137%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -502,7 +519,7 @@
     #section-intro .letter5 {
         position:absolute; 
         top: 100%; 
-        left:106%; 
+        left:114%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -525,26 +542,17 @@
     #section-intro .letter4 .letter-mid4 .video video {
         object-fit: inherit;
     }
+
+    .summer-button {
+        position: absolute;
+        top: 87%;
+        left: 20%;
+        text-align: center;
+    }
 }
 
 
-.summer-button {
-    position: absolute;
-    top: 87%;
-    left: 20%;
-    text-align: center;
-    background: linear-gradient(to left, #08f700, #fbff00);
-    border-radius: 20px;
-    padding: 10px 10px;
-    color: black;
-    width: 250px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 900;
-    transition-duration: 0.25s;
-}
-
-@media (mmin-width: 600px) {
+@media (min-width: 400px) {
     #section-intro .letter     { 
         position:absolute; 
         top: 60%; 
@@ -559,7 +567,7 @@
     #section-intro .letter2 {
         position:absolute; 
         top: 50%; 
-        left:45%; 
+        left:50%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -623,7 +631,7 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     #section-intro .letter     { 
         position:absolute; 
         top: 80%; 
@@ -701,6 +709,87 @@
         text-align: center;
     }
 }
+
+
+@media (min-width: 500px) {
+    #section-intro .letter     { 
+        position:absolute; 
+        top: 90%; 
+        left:57%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }   
+    #section-intro .letter2 {
+        position:absolute; 
+        top: 90%; 
+        left:50%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }
+    #section-intro .letter3 {
+        position:absolute; 
+        top: 90%; 
+        left:80%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }
+    #section-intro .letter4 {
+        position:absolute; 
+        top: 90%; 
+        left: 97%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }
+    #section-intro .letter5 {
+        position:absolute; 
+        top: 90%; 
+        left:114%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }
+    #section-intro .letter6 {
+        position:absolute; 
+        top: 87.5%; 
+        left: 133.5%; 
+        margin-top:-17em; 
+        margin-left:-17em; 
+        display:inline-block; 
+        width:10em; 
+        height:10em; 
+        overflow:hidden;
+    }
+
+    #section-intro .letter4 .letter-mid4 .video video {
+        object-fit: inherit;
+    }
+    .summer-button {
+        position: absolute;
+        top: 77%;
+        left: 25%;
+        text-align: center;
+    }
+}
+
 
 @media (min-width: 1000px) {
     #section-intro .letter {  
