@@ -530,7 +530,7 @@
     #section-intro .letter6 {
         position:absolute; 
         top: 89%; 
-        left:84%; 
+        left: 84%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -875,9 +875,9 @@
     .summer-button {
         top: 20%;
     }
-    #section-intro .letter6 { 
-        position:absolute; 
-        top: 88.9%; 
-        left:111.5%; 
 }
+@media (min-width: 851px) {
+    .summer-button {
+        top: 80%;
+    }
 }
