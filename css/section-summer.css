@@ -625,8 +625,8 @@
     }
     .summer-button {
         position: absolute;
-        top: 87%;
-        left: 30%;
+        top: 77%;
+        left: 15%;
         text-align: center;
     }
 }
@@ -657,7 +657,7 @@
     #section-intro .letter3 {
         position:absolute; 
         top: 80%; 
-        left:64%; 
+        left:55%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -715,7 +715,7 @@
     #section-intro .letter     { 
         position:absolute; 
         top: 90%; 
-        left:57%; 
+        left:50%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -726,7 +726,7 @@
     #section-intro .letter2 {
         position:absolute; 
         top: 90%; 
-        left:50%; 
+        left:40%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -737,7 +737,7 @@
     #section-intro .letter3 {
         position:absolute; 
         top: 90%; 
-        left:80%; 
+        left:68%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -748,7 +748,7 @@
     #section-intro .letter4 {
         position:absolute; 
         top: 90%; 
-        left: 97%; 
+        left: 82%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -759,7 +759,7 @@
     #section-intro .letter5 {
         position:absolute; 
         top: 90%; 
-        left:114%; 
+        left:96%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -769,8 +769,8 @@
     }
     #section-intro .letter6 {
         position:absolute; 
-        top: 87.5%; 
-        left: 133.5%; 
+        top: 88%; 
+        left: 113%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -785,7 +785,7 @@
     .summer-button {
         position: absolute;
         top: 77%;
-        left: 25%;
+        left: 35%;
         text-align: center;
     }
 }
