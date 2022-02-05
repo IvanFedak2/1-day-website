@@ -9,7 +9,7 @@
 
 
 /* Intro (commune) */   
-#section-intro {
+.secondary_main {
     background-image: url('../img/background-summer-section.jpg');
     background-size: cover;
     background-position: center center;
