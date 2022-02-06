@@ -555,8 +555,8 @@
 @media (min-width: 400px) {
     #section-intro .letter     { 
         position:absolute; 
-        top: 60%; 
-        left:54%; 
+        top: 55%; 
+        left:70%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -567,7 +567,7 @@
     #section-intro .letter2 {
         position:absolute; 
         top: 50%; 
-        left:50%; 
+        left:60%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -577,8 +577,8 @@
     }
     #section-intro .letter3 {
         position:absolute; 
-        top: 72%; 
-        left:75%; 
+        top: 60%; 
+        left:100%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -588,8 +588,8 @@
     }
     #section-intro .letter4 {
         position:absolute; 
-        top: 82%; 
-        left:91.5%; 
+        top: 65%; 
+        left:125%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -599,7 +599,7 @@
     }
     #section-intro .letter5 {
         position:absolute; 
-        top: 100%; 
+        top: 90%; 
         left:107%; 
         margin-top:-17em; 
         margin-left:-17em; 
@@ -610,8 +610,8 @@
     }
     #section-intro .letter6 {
         position:absolute; 
-        top: 110%; 
-        left: 125%; 
+        top: 95%; 
+        left: 85%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -795,7 +795,7 @@
     #section-intro .letter {  
         position:absolute; 
         top: 90%; 
-        left:35%; 
+        left:34.3%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -839,7 +839,7 @@
     #section-intro .letter5 { 
         position:absolute; 
         top: 90%; 
-        left:74%; 
+        left:73.8%; 
         margin-top:-17em; 
         margin-left:-17em; 
         display:inline-block; 
@@ -878,6 +878,6 @@
 }
 @media (min-width: 851px) {
     .summer-button {
-        top: 80%;
+        top: 15%;
     }
 }
