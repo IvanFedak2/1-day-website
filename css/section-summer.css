@@ -869,15 +869,3 @@
         text-align: center;
     }
 }
-
-
-@media (min-width: 768px) {
-    .summer-button {
-        top: 20%;
-    }
-}
-@media (min-width: 851px) {
-    .summer-button {
-        top: 15%;
-    }
-}
