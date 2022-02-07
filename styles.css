@@ -52,6 +52,7 @@ img {
     background-color: limegreen;
     padding: 10px 20px;
     border-radius: 14px;
+    cursor: pointer;
 }
 
 .header__buttons {
@@ -123,10 +124,12 @@ img {
 .btn-header:hover {
     color: white !important;
     transition: .3s ease-out;
+    cursor: pointer;
 }
 
 .btn-header:focus {
     transition: .3s ease-out;
+    cursor: pointer;
 }
 
 .header__description p {
@@ -171,6 +174,7 @@ img {
 .btn-check:focus+.btn-outline-light,
 .btn-outline-light:focus {
     box-shadow: none;
+    cursor: pointer;
 }
 
 @media (min-width: 600px) {
