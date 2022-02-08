@@ -30,6 +30,7 @@
     display: flex;
     flex-direction: row;
     gap: 200px;
+    border-radius: 0%;
   }
   .modal-text {
     align-self: center;
@@ -59,12 +60,7 @@
 		background-position: 0% 50%;
 	}
 }
-  .modal-image {
-      border-radius: 20px;
-      height: 70%;
-      width: auto;
-      margin: auto;
-  }
+
   
   /* The Close Button */
   .close,
@@ -265,7 +261,7 @@
   .carousel__item2[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item2[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item2[data-pos="-1"], .carousel__item2[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -277,7 +273,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item2[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item2[data-pos="-2"], .carousel__item2[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -357,7 +353,7 @@
   .carousel__item3[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item3[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item3[data-pos="-1"], .carousel__item3[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -369,7 +365,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item3[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item3[data-pos="-2"], .carousel__item3[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -443,7 +439,7 @@
   .carousel__item4[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item4[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item4[data-pos="-1"], .carousel__item4[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -455,7 +451,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item4[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item4[data-pos="-2"], .carousel__item4[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -524,7 +520,7 @@
   .carousel__item5[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item5[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item5[data-pos="-1"], .carousel__item5[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -536,7 +532,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item5[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item5[data-pos="-2"], .carousel__item5[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -609,7 +605,7 @@
   .carousel__item6[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item6[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item6[data-pos="-1"], .carousel__item6[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -621,7 +617,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item6[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item6[data-pos="-2"], .carousel__item6[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -689,7 +685,7 @@
   .carousel__item7[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item7[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item7[data-pos="-1"], .carousel__item7[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -701,7 +697,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item7[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item7[data-pos="-2"], .carousel__item7[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
@@ -769,7 +765,7 @@
   .carousel__item8[data-pos="0"] {
     z-index: 5;
   }
-  .carousel__item8[data-pos="-1"], .carousel__item[data-pos="1"] {
+  .carousel__item8[data-pos="-1"], .carousel__item8[data-pos="1"] {
     opacity: 0.7;
     filter: blur(1px) grayscale(10%);
   }
@@ -781,7 +777,7 @@
     transform: translateX(40%) scale(0.9);
     z-index: 4;
   }
-  .carousel__item8[data-pos="-2"], .carousel__item[data-pos="2"] {
+  .carousel__item8[data-pos="-2"], .carousel__item8[data-pos="2"] {
     opacity: 0.4;
     filter: blur(3px) grayscale(20%);
   }
