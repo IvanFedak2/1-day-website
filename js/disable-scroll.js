@@ -12,7 +12,12 @@ document.getElementById('disable-scroll').addEventListener('click', () => {
  })
 
  
-
+document.getElementById('disable-scroll2').addEventListener('click', () => {
+   document.body.style.overflow = '';
+})
+document.getElementById('myBtn2').addEventListener('click', () => {
+   document.body.style.overflow = 'hidden';
+})
 
 
 
