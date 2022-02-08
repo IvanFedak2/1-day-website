@@ -99,31 +99,21 @@
     text-decoration: none;
     cursor: pointer;
   }
-
-  .close:target .modal {
-    -webkit-animation-name: animatebot;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatebot;
-    animation-duration: 0.4s;
-    animation-iteration-count: 1;
+/*************ANIMATION FADEout****************/
+  .out {
+    transform: scale(0);
+    animation: unfoldOut 0.5s;
+  }
+  @keyframes unfoldOut {
+    0% {
+      transform:scale(1);
+    }
+    100% {
+      transform:scale(0);
+    }
   }
 
-  @-webkit-keyframes animatebot {
-    from {top:0; opacity:1} 
-    to {top: -300px;; opacity:0;}
-  }
-  
-  @keyframes animatebot {
-    from {top:0; opacity:1} 
-    to {top: -300px;; opacity:0;}
-  }
-
-
-
-
-
-
-
+/*****************************/
   .carousel_modal {
     display: flex;
     width: 100%;
