@@ -11,6 +11,14 @@ document.getElementById('disable-scroll').addEventListener('click', () => {
     document.body.style.overflow = 'hidden';
  })
 
+ document.getElementById('disable-scroll1').addEventListener('click', () => {
+   document.body.style.overflow = '';
+})
+document.getElementById('myBtn1').addEventListener('click', () => {
+   document.body.style.overflow = 'hidden';
+})
+
+
  
 document.getElementById('disable-scroll2').addEventListener('click', () => {
    document.body.style.overflow = '';
