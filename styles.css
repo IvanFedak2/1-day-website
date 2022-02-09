@@ -7,7 +7,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(limegreen, orange); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(limegreen, orange); 
+  }
 
+
+::selection {
+    background: rgb(238, 135, 0);
+}
 :root {
     --d: 700ms;
     --e: cubic-bezier(0.19, 1, 0.22, 1);
