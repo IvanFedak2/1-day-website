@@ -127,9 +127,13 @@ img {
     text-decoration: none;
     cursor: pointer;
 }
-@media (min-height: 330px) {
+@media (max-height: 426px) {
     .header_navigation_items {
-        gap: 0;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .modal-social-media {
+        left: 33%;
     }
 }
 
