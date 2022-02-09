@@ -14,6 +14,24 @@ window.onclick = function(event) {
     $(modal).addClass('out');
   }
 }
+
+////////////////////////////////////////////////////////
+let modal1 = document.getElementById("myModal1");
+let btn1 = document.getElementById("myBtn1");
+let span1 = document.getElementsByClassName("close1")[0];
+
+btn1.onclick = function() {
+  $(modal1).removeClass('out');
+  modal1.style.display = "block";
+}
+span1.onclick = function() {
+  $(modal1).addClass('out');
+}
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    $(modal1).addClass('out');
+  }
+}
 ////////////////////////////////////////////////////////////////////
 
 let modal2 = document.getElementById("myModal2");

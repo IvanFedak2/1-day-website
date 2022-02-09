@@ -64,6 +64,7 @@
   
   /* The Close Button */
   .close,
+  .close1,
   .close2,
   .close3,
   .close4,
@@ -76,11 +77,67 @@
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-    
   }
+
+  .close-menu {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+.header_navigation_items {
+  padding-left: 0 !important;
+  text-decoration: none;
+  margin-top: -50px !important;
+}
+.header_navigation {
+  display: flex;;
+}
+
+
+.modal-menu-nav:active {
+  color: limegreen;
+}
+.modal-menu-nav:hover {
+  color: black;
+}
+
+.modal-social-media {
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: auto;
+}
+
+.btn-modal-social {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.1rem;
+  font-size: 1rem;
+  width: 50px;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+  border: none;
+  left: -100px;
+    position: relative;
+    top: 50px
+}
+
+@media (min-width: 800px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
   
   .close:hover,
   .close:focus,
+  .close1:hover,
+  .close1:focus,
   .close2:hover,
   .close2:focus,
   .close3:hover,

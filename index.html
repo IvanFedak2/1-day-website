@@ -15,55 +15,56 @@
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-green">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Tours with Ivan</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="burger_mobile"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Call us now</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Book a tour</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Tours selection
-                            </a>
-                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#fishing-the-predator">Fishing predators</a></li>
-                                <li><a class="dropdown-item" href="#carpathian-encounter">Carpathian encounter</a></li>
-                                <li><a class="dropdown-item" href="#mushrooming">Mushrooming</a></li>
-                                <li><a class="dropdown-item" href="#kayaking-on-dnister">Kayaking on Dnister</a></li>
-                                <li><a class="dropdown-item" href="#pip-ivan-adventure">Pip Ivan adventure</a></li>
-                                <li><a class="dropdown-item" href="#carpathian-trout">Carpathian Trout</a></li>
-                                <li><a class="dropdown-item" href="#paragliding">Paragliding</a></li>
-                                <li><a class="dropdown-item" href="#black-cheremosh-rafting">Black Cheremosh rafting</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Mushrooming</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+        <div class="navbar-toggler">
+            <a class="burger_mobile" id="myBtn"></a>
+        </div>
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <nav class="header_navigation">
+                        <span id="disable-scroll" class="close close-menu">
+                            <ul class="header_navigation_items">
+                            <a href="#works" class="modal-menu-nav">About us</a>
+                            <a href="#our-tours" class="modal-menu-nav">Our tours</a>
+                            <a href="#footer" class="modal-menu-nav">Contact us</a>
+                            <a href="#works" class="modal-menu-nav">Discount request</a>
+                            <a href="#works" class="modal-menu-nav">Hot deals</a>
+                        </ul>
+                          <div class="modal-social-media">
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="https://www.facebook.com/reneicanc"
+                                role="button" target="_blank"><i class="fab fa-facebook-f" style="margin-left: 2px;"></i></a>
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="https://twitter.com/IvanFedak" role="button"
+                                target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="google.com" role="button" target="_blank">
+                                <i class="fab fa-google"></i></a>
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="https://www.instagram.com/cruise_blog"
+                                role="button" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/ivanfedak"
+                                role="button" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn-modal-social btn-outline-light btn-floating m-1" href="https://github.com/IvanFedak2" role="button"
+                                target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </span>
+                </nav>
             </div>
-        </nav>
+          </div>
+        
+        
         <div class="header__description">
-            <p js--wp-5>The best tours<br><span class="text-deco"> out there</span></p>
+            <p class="header-text" js--wp-5>The best tours<br><span class="text-deco"> out there</span></p>
         </div>
         <div class="header__buttons">
             <a class="btn-header btn-header-left" href="#">Explore</a>
             <a class="btn-header btn-header-right" href="#">Book tours</a>
         </div>
         </div>
+        <nav class="desktop-navigation">
+            <a href="#works" class="desktop-navigation-link">About us</a>
+            <a href="#our-tours" class="desktop-navigation-link">Our tours</a>
+            <a href="#footer" class="desktop-navigation-link">Contact us</a>
+            <a href="#works" class="desktop-navigation-link">Discount request</a>
+            <a href="#works" class="desktop-navigation-link">Hot deals</a>
+        </nav>
     </header>
     <div id="works">
         <div class="carousel">
@@ -80,32 +81,49 @@
                         <div class="card-carousel1">
                             <div class="content">
                                 <h2 class="title">Fishing the predator<br></h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn1"
                                     class="btn">View
                                     Trips</button>
-                                    
+
                             </div>
                         </div>
                     </div>
-                    <div id="myModal" class="modal">
+                    <div id="myModal1" class="modal">
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll" class="close">&times;</span>
-                          <div class="carousel_modal">
-                            <ul class="carousel__list">
-                              <li class="carousel__item" data-pos="-2">1</li>
-                              <li class="carousel__item" data-pos="-1">2</li>
-                              <li class="carousel__item" data-pos="0">3</li>
-                              <li class="carousel__item" data-pos="1">4</li>
-                              <li class="carousel__item" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                        
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll" class="close1">&times;</span>
+                            <div class="carousel_modal">
+                                <ul class="carousel__list">
+                                    <li class="carousel__item" data-pos="-2">1</li>
+                                    <li class="carousel__item" data-pos="-1">2</li>
+                                    <li class="carousel__item" data-pos="0">3</li>
+                                    <li class="carousel__item" data-pos="1">4</li>
+                                    <li class="carousel__item" data-pos="2">5</li>
+                                </ul>
+                            </div>
+
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
 
 
 
@@ -123,28 +141,44 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll2" class="close2">&times;</span>
-                          <div class="carousel_modal2">
-                            <ul class="carousel__list2">
-                              <li class="carousel__item2" data-pos="-2">1</li>
-                              <li class="carousel__item2" data-pos="-1">2</li>
-                              <li class="carousel__item2" data-pos="0">3</li>
-                              <li class="carousel__item2" data-pos="1">4</li>
-                              <li class="carousel__item2" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll2" class="close2">&times;</span>
+                            <div class="carousel_modal2">
+                                <ul class="carousel__list2">
+                                    <li class="carousel__item2" data-pos="-2">1</li>
+                                    <li class="carousel__item2" data-pos="-1">2</li>
+                                    <li class="carousel__item2" data-pos="0">3</li>
+                                    <li class="carousel__item2" data-pos="1">4</li>
+                                    <li class="carousel__item2" data-pos="2">5</li>
+                                </ul>
+                            </div>
+
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel3">
                             <div class="content">
                                 <h2 class="title">Mushrooming<br><br></h2>
                                 <p class="copy">Lorem Ipsum is simply dummy text of the printing</p>
-                                <button id="myBtn3" 
-                                    class="btn">Book
+                                <button id="myBtn3" class="btn">Book
                                     Now</button>
                             </div>
                         </div>
@@ -153,25 +187,42 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll3" class="close3">&times;</span>
-                          <div class="carousel_modal3">
-                            <ul class="carousel__list3">
-                              <li class="carousel__item3" data-pos="-2">1</li>
-                              <li class="carousel__item3" data-pos="-1">2</li>
-                              <li class="carousel__item3" data-pos="0">3</li>
-                              <li class="carousel__item3" data-pos="1">4</li>
-                              <li class="carousel__item3" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll3" class="close3">&times;</span>
+                            <div class="carousel_modal3">
+                                <ul class="carousel__list3">
+                                    <li class="carousel__item3" data-pos="-2">1</li>
+                                    <li class="carousel__item3" data-pos="-1">2</li>
+                                    <li class="carousel__item3" data-pos="0">3</li>
+                                    <li class="carousel__item3" data-pos="1">4</li>
+                                    <li class="carousel__item3" data-pos="2">5</li>
+                                </ul>
+                            </div>
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel4">
                             <div class="content">
                                 <h2 class="title">Kayaking on Dnister</h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn4" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn4"
                                     class="btn">Book
                                     Now</button>
                             </div>
@@ -181,25 +232,42 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll4" class="close4">&times;</span>
-                          <div class="carousel_modal4">
-                            <ul class="carousel__list4">
-                              <li class="carousel__item4" data-pos="-2">1</li>
-                              <li class="carousel__item4" data-pos="-1">2</li>
-                              <li class="carousel__item4" data-pos="0">3</li>
-                              <li class="carousel__item4" data-pos="1">4</li>
-                              <li class="carousel__item4" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll4" class="close4">&times;</span>
+                            <div class="carousel_modal4">
+                                <ul class="carousel__list4">
+                                    <li class="carousel__item4" data-pos="-2">1</li>
+                                    <li class="carousel__item4" data-pos="-1">2</li>
+                                    <li class="carousel__item4" data-pos="0">3</li>
+                                    <li class="carousel__item4" data-pos="1">4</li>
+                                    <li class="carousel__item4" data-pos="2">5</li>
+                                </ul>
+                            </div>
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel5">
                             <div class="content">
                                 <h2 class="title">Pip Ivan adventure<br><br></h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn5" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn5"
                                     class="btn">View
                                     Trips</button>
                             </div>
@@ -209,26 +277,43 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll5" class="close5">&times;</span>
-                          <div class="carousel_modal5">
-                            <ul class="carousel__list5">
-                              <li class="carousel__item5" data-pos="-2">1</li>
-                              <li class="carousel__item5" data-pos="-1">2</li>
-                              <li class="carousel__item5" data-pos="0">3</li>
-                              <li class="carousel__item5" data-pos="1">4</li>
-                              <li class="carousel__item5" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll5" class="close5">&times;</span>
+                            <div class="carousel_modal5">
+                                <ul class="carousel__list5">
+                                    <li class="carousel__item5" data-pos="-2">1</li>
+                                    <li class="carousel__item5" data-pos="-1">2</li>
+                                    <li class="carousel__item5" data-pos="0">3</li>
+                                    <li class="carousel__item5" data-pos="1">4</li>
+                                    <li class="carousel__item5" data-pos="2">5</li>
+                                </ul>
+                            </div>
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
 
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel6">
                             <div class="content">
                                 <h2 class="title"><br>Carpathian Trout<br><br></h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn6" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn6"
                                     class="btn">View
                                     Trips</button>
                             </div>
@@ -238,26 +323,43 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll6" class="close6">&times;</span>
-                          <div class="carousel_modal6">
-                            <ul class="carousel__list6">
-                              <li class="carousel__item6" data-pos="-2">1</li>
-                              <li class="carousel__item6" data-pos="-1">2</li>
-                              <li class="carousel__item6" data-pos="0">3</li>
-                              <li class="carousel__item6" data-pos="1">4</li>
-                              <li class="carousel__item6" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll6" class="close6">&times;</span>
+                            <div class="carousel_modal6">
+                                <ul class="carousel__list6">
+                                    <li class="carousel__item6" data-pos="-2">1</li>
+                                    <li class="carousel__item6" data-pos="-1">2</li>
+                                    <li class="carousel__item6" data-pos="0">3</li>
+                                    <li class="carousel__item6" data-pos="1">4</li>
+                                    <li class="carousel__item6" data-pos="2">5</li>
+                                </ul>
+                            </div>
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
 
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel7">
                             <div class="content">
                                 <h2 class="title"><br>Paragliding<br><br></h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn7" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn7"
                                     class="btn">View
                                     Trips</button>
                             </div>
@@ -267,26 +369,43 @@
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span id="disable-scroll7" class="close7">&times;</span>
-                          <div class="carousel_modal7">
-                            <ul class="carousel__list7">
-                              <li class="carousel__item7" data-pos="-2">1</li>
-                              <li class="carousel__item7" data-pos="-1">2</li>
-                              <li class="carousel__item7" data-pos="0">3</li>
-                              <li class="carousel__item7" data-pos="1">4</li>
-                              <li class="carousel__item7" data-pos="2">5</li>
-                            </ul>
-                          </div>
-                          <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <span id="disable-scroll7" class="close7">&times;</span>
+                            <div class="carousel_modal7">
+                                <ul class="carousel__list7">
+                                    <li class="carousel__item7" data-pos="-2">1</li>
+                                    <li class="carousel__item7" data-pos="-1">2</li>
+                                    <li class="carousel__item7" data-pos="0">3</li>
+                                    <li class="carousel__item7" data-pos="1">4</li>
+                                    <li class="carousel__item7" data-pos="2">5</li>
+                                </ul>
+                            </div>
+                            <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                                popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                                passages, and more recently with desktop publishing software like Aldus PageMaker
+                                including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
+                                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                                the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book. It has survived not only five centuries, but also the leap into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
 
                         </div>
-                      <!-- Modal content -->
-                      </div>
+                        <!-- Modal content -->
+                    </div>
                     <div class="carousel-block">
                         <div class="card-carousel8">
                             <div class="content">
                                 <h2 class="title">Black Cheremosh rafting</h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn8" 
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn8"
                                     class="btn">View
                                     Trips</button>
                             </div>
@@ -295,242 +414,272 @@
 
                             <!-- Modal content -->
                             <div class="modal-content">
-                              <span id="disable-scroll8" class="close8">&times;</span>
-                              <div class="carousel_modal8">
-                                <ul class="carousel__list8">
-                                  <li class="carousel__item8" data-pos="-2">1</li>
-                                  <li class="carousel__item8" data-pos="-1">2</li>
-                                  <li class="carousel__item8" data-pos="0">3</li>
-                                  <li class="carousel__item8" data-pos="1">4</li>
-                                  <li class="carousel__item8" data-pos="2">5</li>
-                                </ul>
-                              </div>
-                              <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    
+                                <span id="disable-scroll8" class="close8">&times;</span>
+                                <div class="carousel_modal8">
+                                    <ul class="carousel__list8">
+                                        <li class="carousel__item8" data-pos="-2">1</li>
+                                        <li class="carousel__item8" data-pos="-1">2</li>
+                                        <li class="carousel__item8" data-pos="0">3</li>
+                                        <li class="carousel__item8" data-pos="1">4</li>
+                                        <li class="carousel__item8" data-pos="2">5</li>
+                                    </ul>
+                                </div>
+                                <p class="modal-text">Lorem Ipsum is simply dummy text of the printing aing, remaining
+                                    essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                    software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is
+                                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambled it to make a type specimen book. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining
+                                    essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                    software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is
+                                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                                    galley of type and scrambled it to make a type specimen book. It has survived not
+                                    only five centuries, but also the leap into electronic typesetting, remaining
+                                    essentially unchanged. It was popularised in the 1960s with the release of Letraset
+                                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
                             </div>
-                          <!-- Modal content -->
-                          </div>
+                            <!-- Modal content -->
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <main class="our-tours">
+    <main class="our-tours" id="our-tours">
         <div class="card" id="fishing-the-predator">
             <div class="content">
                 <h2 class="title">Fishing the predator<br></h2>
                 <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
-                    <div id="myModal" class="modal">
+                <div id="myModal" class="modal">
 
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                          <span class="close">&times;</span>
-                          <p>Some text in the Modal..</p>
-                        </div>
-                      
-                      </div>
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="card" id="carpathian-encounter">
             <div class="content">
                 <h2 class="title">Carpathian encounter</h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">View
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
             </div>
         </div>
         <div class="card" id="mushrooming">
             <div class="content">
                 <h2 class="title">Mushrooming<br><br></h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">Book
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">Book
                     Now</button>
             </div>
         </div>
         <div class="card" id="kayaking-on-dnister">
             <div class="content">
                 <h2 class="title">Kayaking on Dnister</h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">Book
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">Book
                     Now</button>
             </div>
         </div>
         <div class="card" id="pip-ivan-adventure">
             <div class="content">
                 <h2 class="title">Pip Ivan adventure<br><br></h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">View
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
             </div>
         </div>
         <div class="card" id="carpathian-trout">
             <div class="content">
                 <h2 class="title"><br>Carpathian Trout<br><br></h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">View
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
             </div>
         </div>
         <div class="card" id="paragliding">
             <div class="content">
                 <h2 class="title"><br>Paragliding<br><br></h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">View
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
             </div>
         </div>
         <div class="card" id="black-cheremosh-rafting">
             <div class="content">
                 <h2 class="title">Black Cheremosh rafting</h2>
-                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn"  class="btn">View
+                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
             </div>
         </div>
     </main>
-
-
-
-
-
-    
-    
+<!-------------------------------------------------------------------------->
     <div class="secondary_main">
         <section id="section-intro" class="onscroll fitscreen seen loaded">
             <div class="layer back">
-                <div class="rope sketch" path-speed="4" path-offset="0" style="opacity: 1;"><svg xmlns="http://www.w3.org/2000/svg" style="fill:none" id="svg-line1" viewBox="0 0 3 1080" preserveAspectRatio="xMidYMax meet">
-      <path style="stroke: rgb(226, 9, 83); stroke-width: 2.5; stroke-dasharray: 540, 540; stroke-dashoffset: 0px;" id="path-line1" d="M 1.331692,540 V 1080"></path>
-    </svg>
-    </div>
+                <div class="rope sketch" path-speed="4" path-offset="0" style="opacity: 1;"><svg
+                        xmlns="http://www.w3.org/2000/svg" style="fill:none" id="svg-line1" viewBox="0 0 3 1080"
+                        preserveAspectRatio="xMidYMax meet">
+                        <path
+                            style="stroke: rgb(226, 9, 83); stroke-width: 2.5; stroke-dasharray: 540, 540; stroke-dashoffset: 0px;"
+                            id="path-line1" d="M 1.331692,540 V 1080"></path>
+                    </svg>
+                </div>
             </div>
             <div class="letter">
                 <div class="letter-back sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M 100 -20 L 100 100 L 100 150 L 100 150 L 100 150 Q 100 200 150 200 Q 200 200 200 150 L 200 150 L 200 150 L 200 100 Q 200 75 200 -20 " style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M 100 -20 L 100 100 L 100 150 L 100 150 L 100 150 Q 100 200 150 200 Q 200 200 200 150 L 200 150 L 200 150 L 200 100 Q 200 75 200 -20 "
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                 </div>
                 <div class="letter-mid sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M 100 -20 L 100 100 L 100 150 L 100 150 L 100 150 Q 100 200 150 200 Q 200 200 200 150 L 200 150 L 200 150 L 200 100 Q 200 75 200 -20 " style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M 100 -20 L 100 100 L 100 150 L 100 150 L 100 150 Q 100 200 150 200 Q 200 200 200 150 L 200 150 L 200 150 L 200 100 Q 200 75 200 -20 "
+                            style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/U.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
-
             <div class="letter2">
                 <div class="letter-back2 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M100 50 A50 50 0 1 0 50 100 A50 50 0 1 1 0 150" style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
-                    </svg>  
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M100 50 A50 50 0 1 0 50 100 A50 50 0 1 1 0 150"
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
+                    </svg>
                 </div>
                 <div class="letter-mid2 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M100 50 A50 50 0 1 0 50 100 A50 50 0 1 1 0 150" style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M100 50 A50 50 0 1 0 50 100 A50 50 0 1 1 0 150"
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/S.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
             <div class="letter3">
                 <div class="letter-back3 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220" style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220"
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                 </div>
                 <div class="letter-mid3 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220" style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220"
+                            style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/M1.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
-
             <div class="letter4">
                 <div class="letter-back4 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220" style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220"
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                 </div>
                 <div class="letter-mid4 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220" style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M 50 220 L 50 150 L 50 150 L 50 50 L 50 50 L 100 110 L 150 50 L 150 50 L 150 100 L 150 150 L 150 200 L 150 220"
+                            style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/M2.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
             <div class="letter5">
                 <div class="letter-back5 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M 150 200 L 100 200 L 50 200 L 50 140 L 50 100 L 100 100 L 150 100 L 100 100 L 50 100 L 50 50 L 50 0 L 100 0 L 140 0 L 150 0 " style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M 150 200 L 100 200 L 50 200 L 50 140 L 50 100 L 100 100 L 150 100 L 100 100 L 50 100 L 50 50 L 50 0 L 100 0 L 140 0 L 150 0 "
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                 </div>
                 <div class="letter-mid5 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M 150 200 L 100 200 L 50 200 L 50 140 L 50 100 L 100 100 L 150 100 L 100 100 L 50 100 L 50 50 L 50 0 L 100 0 L 140 0 L 150 0 " style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M 150 200 L 100 200 L 50 200 L 50 140 L 50 100 L 100 100 L 150 100 L 100 100 L 50 100 L 50 50 L 50 0 L 100 0 L 140 0 L 150 0 "
+                            style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/E.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
             <div class="letter6">
                 <div class="letter-back6 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none" d="M 0 250 L 0 200 L 0 150 L 0 100 L 0 50 Q 50 0 100 50 Q 150 100 100 150 L 68 150 Q 100 200 100 250 " style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="white" stroke-width="50" fill="none"
+                            d="M 0 250 L 0 200 L 0 150 L 0 100 L 0 50 Q 50 0 100 50 Q 150 100 100 150 L 68 150 Q 100 200 100 250 "
+                            style="stroke-dasharray: 606.649, 606.649; stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                 </div>
                 <div class="letter-mid6 sketch" style="opacity: 1;">
                     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none" d="M 0 250 L 0 200 L 0 150 L 0 100 L 0 50 Q 50 0 100 50 Q 150 100 100 150 L 68 150 Q 100 200 100 250 " style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered"></path>
+                        <path path-onseen="1" transform="translate(65, 50)" stroke="black" stroke-width="50" fill="none"
+                            d="M 0 250 L 0 200 L 0 150 L 0 100 L 0 50 Q 50 0 100 50 Q 150 100 100 150 L 68 150 Q 100 200 100 250 "
+                            style="stroke-dasharray: 606.649, 606.649;stroke-dashoffset: 606.649px;" class="triggered">
+                        </path>
                     </svg>
                     <div class="video">
                         <video disablepictureinpicture="true" muted="true" loop="true" autoplay="true">
-                        
+
                             <source src="video/R.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
             </div>
-
-
             <div class="layer loading"></div>
         </section>
-        <a  class="summer-button" href="#">Discover Summer!</a>
+        <a class="summer-button" href="#">Discover Summer!</a>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!------------------MOBILE FORM-------------------->
     <div class="mobile-form">
         <div class="wrapper">
             <div class="container-mobile-form">
@@ -590,7 +739,7 @@
             </div>
         </div>
     </div>
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center text-white" id="footer">
         <div class="container1 p-4 pb-0">
             <section class="mb-4">
                 <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/reneicanc"
@@ -622,9 +771,8 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="js/modal.js"></script>
     <script src="js/disable-scroll.js"></script>
-    <script src="js/carousel-modal.js.js"></script>
+    <script src="js/carousel-modal.js"></script>
     <script src="js/script.js"></script>
 
 </body>
-
 </html>

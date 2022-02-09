@@ -4,8 +4,8 @@ const carouselItems = document.querySelectorAll('.carousel__item');
 const elems = Array.from(carouselItems);
 
 carouselList.addEventListener('click', function (event) {
-  var newActive = event.target;
-  var isItem = newActive.closest('.carousel__item');
+  let newActive = event.target;
+  let isItem = newActive.closest('.carousel__item');
 
   if (!isItem || newActive.classList.contains('carousel__item_active')) {
     return;
@@ -26,7 +26,7 @@ const update = function(newActive) {
   current.classList.remove('carousel__item_active');
   
   [current, prev, next, first, last].forEach(item => {
-    var itemPos = item.dataset.pos;
+    let itemPos = item.dataset.pos;
 
     item.dataset.pos = getPos(itemPos, newActivePos)
   });
@@ -49,8 +49,8 @@ const carouselItems2 = document.querySelectorAll('.carousel__item2');
 const elems2 = Array.from(carouselItems2);
 
 carouselList2.addEventListener('click', function (event) {
-  var newActive2 = event.target;
-  var isItem2 = newActive2.closest('.carousel__item2');
+  let newActive2 = event.target;
+  let isItem2 = newActive2.closest('.carousel__item2');
 
   if (!isItem2 || newActive2.classList.contains('carousel__item_active2')) {
     return;
@@ -71,7 +71,7 @@ const update2 = function(newActive2) {
   current2.classList.remove('carousel__item_active2');
   
   [current2, prev2, next2, first2, last2].forEach(item => {
-    var itemPos2 = item.dataset.pos;
+    let itemPos2 = item.dataset.pos;
 
     item.dataset.pos = getPos2(itemPos2, newActivePos2)
   });
@@ -100,8 +100,8 @@ const carouselItems3 = document.querySelectorAll('.carousel__item3');
 const elems3 = Array.from(carouselItems3);
 
 carouselList3.addEventListener('click', function (event) {
-  var newActive3 = event.target;
-  var isItem3 = newActive3.closest('.carousel__item3');
+  let newActive3 = event.target;
+  let isItem3 = newActive3.closest('.carousel__item3');
 
   if (!isItem3 || newActive3.classList.contains('carousel__item_active3')) {
     return;
@@ -122,7 +122,7 @@ const update3 = function(newActive3) {
   current3.classList.remove('carousel__item_active3');
   
   [current3, prev3, next3, first3, last3].forEach(item => {
-    var itemPos3 = item.dataset.pos;
+    let itemPos3 = item.dataset.pos;
 
     item.dataset.pos = getPos3(itemPos3, newActivePos3)
   });
@@ -147,8 +147,8 @@ const carouselItems4 = document.querySelectorAll('.carousel__item4');
 const elems4 = Array.from(carouselItems4);
 
 carouselList4.addEventListener('click', function (event) {
-  var newActive4 = event.target;
-  var isItem4 = newActive4.closest('.carousel__item4');
+  let newActive4 = event.target;
+  let isItem4 = newActive4.closest('.carousel__item4');
 
   if (!isItem4 || newActive4.classList.contains('carousel__item_active4')) {
     return;
@@ -169,7 +169,7 @@ const update4 = function(newActive4) {
   current4.classList.remove('carousel__item_active4');
   
   [current4, prev4, next4, first4, last4].forEach(item => {
-    var itemPos4 = item.dataset.pos;
+    let itemPos4 = item.dataset.pos;
 
     item.dataset.pos = getPos4(itemPos4, newActivePos4)
   });
@@ -193,8 +193,8 @@ const carouselItems5 = document.querySelectorAll('.carousel__item5');
 const elems5 = Array.from(carouselItems5);
 
 carouselList5.addEventListener('click', function (event) {
-  var newActive5 = event.target;
-  var isItem5 = newActive5.closest('.carousel__item5');
+  let newActive5 = event.target;
+  let isItem5 = newActive5.closest('.carousel__item5');
 
   if (!isItem5 || newActive5.classList.contains('carousel__item_active5')) {
     return;
@@ -215,7 +215,7 @@ const update5 = function(newActive5) {
   current5.classList.remove('carousel__item_active5');
   
   [current5, prev5, next5, first5, last5].forEach(item => {
-    var itemPos5 = item.dataset.pos;
+    let itemPos5 = item.dataset.pos;
 
     item.dataset.pos = getPos5(itemPos5, newActivePos5)
   });
@@ -238,8 +238,8 @@ const carouselItems6 = document.querySelectorAll('.carousel__item6');
 const elems6 = Array.from(carouselItems6);
 
 carouselList6.addEventListener('click', function (event) {
-  var newActive6 = event.target;
-  var isItem6 = newActive6.closest('.carousel__item6');
+  let newActive6 = event.target;
+  let isItem6 = newActive6.closest('.carousel__item6');
 
   if (!isItem6 || newActive6.classList.contains('carousel__item_active6')) {
     return;
@@ -260,7 +260,7 @@ const update6 = function(newActive6) {
   current6.classList.remove('carousel__item_active6');
   
   [current6, prev6, next6, first6, last6].forEach(item => {
-    var itemPos6 = item.dataset.pos;
+    let itemPos6 = item.dataset.pos;
 
     item.dataset.pos = getPos6(itemPos6, newActivePos6)
   });
@@ -282,8 +282,8 @@ const carouselItems7 = document.querySelectorAll('.carousel__item7');
 const elems7 = Array.from(carouselItems7);
 
 carouselList7.addEventListener('click', function (event) {
-  var newActive7 = event.target;
-  var isItem7 = newActive7.closest('.carousel__item7');
+  let newActive7 = event.target;
+  let isItem7 = newActive7.closest('.carousel__item7');
 
   if (!isItem7 || newActive7.classList.contains('carousel__item_active7')) {
     return;
@@ -304,7 +304,7 @@ const update7 = function(newActive7) {
   current7.classList.remove('carousel__item_active7');
   
   [current7, prev7, next7, first7, last7].forEach(item => {
-    var itemPos7 = item.dataset.pos;
+    let itemPos7 = item.dataset.pos;
 
     item.dataset.pos = getPos7(itemPos7, newActivePos7)
   });
@@ -326,8 +326,8 @@ const carouselItems8 = document.querySelectorAll('.carousel__item8');
 const elems8 = Array.from(carouselItems8);
 
 carouselList8.addEventListener('click', function (event) {
-  var newActive8 = event.target;
-  var isItem8 = newActive8.closest('.carousel__item8');
+  let newActive8 = event.target;
+  let isItem8 = newActive8.closest('.carousel__item8');
 
   if (!isItem8 || newActive8.classList.contains('carousel__item_active8')) {
     return;
@@ -348,7 +348,7 @@ const update8 = function(newActive8) {
   current8.classList.remove('carousel__item_active8');
   
   [current8, prev8, next8, first8, last8].forEach(item => {
-    var itemPos8 = item.dataset.pos;
+    let itemPos8 = item.dataset.pos;
 
     item.dataset.pos = getPos8(itemPos8, newActivePos8)
   });
