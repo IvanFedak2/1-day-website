@@ -122,10 +122,15 @@ img {
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 30px;
+    gap: 50px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+}
+@media (min-height: 330px) {
+    .header_navigation_items {
+        gap: 0;
+    }
 }
 
 .desktop-navigation {
