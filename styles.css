@@ -1265,35 +1265,35 @@ form button:hover {
         }
     }
     .card-carousel1 {
-        background-image: url(img/fishing.jpg);
+        background-image: url(img/rafting.jpg);
         background-size: cover;
     }
     .card-carousel2 {
-        background-image: url(img/mountings.jpg);
-        background-size: cover;
-    }
-    .card-carousel3 {
-        background-image: url(img/mushrooms.jpg);
-        background-size: cover;
-    }
-    .card-carousel4 {
-        background-image: url(img/river.jpg);
-        background-size: cover;
-    }
-    .card-carousel5 {
-        background-image: url(img/pip-ivan.jpg);
-        background-size: cover;
-    }
-    .card-carousel6 {
-        background-image: url(img/trout.jpg);
-        background-size: cover;
-    }
-    .card-carousel7 {
         background-image: url(img/paragliding.jpg);
         background-size: cover;
     }
+    .card-carousel3 {
+        background-image: url(img/trout.jpg);
+        background-size: cover;
+    }
+    .card-carousel4 {
+        background-image: url(img/pip-ivan.jpg);
+        background-size: cover;
+    }
+    .card-carousel5 {
+        background-image: url(img/river.jpg);
+        background-size: cover;
+    }
+    .card-carousel6 {
+        background-image: url(img/mushrooms.jpg);
+        background-size: cover;
+    }
+    .card-carousel7 {
+        background-image: url(img/mountings.jpg);
+        background-size: cover;
+    }
     .card-carousel8 {
-        background-image: url(img/rafting.jpg);
+        background-image: url(img/fishing.jpg);
         background-size: cover;
     }
 }

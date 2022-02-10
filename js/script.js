@@ -10,7 +10,7 @@ $(document).on('click',".carousel-button-left",function(){
 });
 function left_carusel(carusel){
    let block_width = $(carusel).find('.carousel-block').outerWidth();
-   $(carusel).find(".carousel-items .carousel-block").eq(-1).prependTo($(carusel).find(".carousel-items")); 
+   $(carusel).find(".carousel-items .carousel-block").eq(-1).prependTo($(carusel).find(".carousel-items"));
    $(carusel).find(".carousel-items").css({"left":"-"+block_width+"px"});
    $(carusel).find(".carousel-items .carousel-block").eq(-1);    
    $(carusel).find(".carousel-items").animate({left: "0px"}, 200); 
