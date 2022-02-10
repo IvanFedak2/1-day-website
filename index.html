@@ -67,7 +67,7 @@
         </nav>
     </header>
     <div id="works">
-        <div class="carousel">
+        <div class="carousel" id="carousel">
             <div class="carousel-button-left carousel-button-positioning-left">
                 <a href="#"></a>
             </div>
@@ -75,13 +75,13 @@
                 <a href="#"></a>
             </div>
             <div class="carousel-wrapper">
-                <div class="carousel-items">
+                <div class="carousel-items" id="carousel-items">
                     <div class="carousel-block">
-
                         <div class="card-carousel1">
                             <div class="content">
                                 <h2 class="title">Fishing the predator<br></h2>
-                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn1"
+                                <p class="copy">Lorem Ipsum is simply dummy text of the printing</p>
+                                <button id="myBtn1"
                                     class="btn">View
                                     Trips</button>
                             </div>
@@ -92,8 +92,8 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="disable-scroll1" class="close1">&times;</span>
-                            <div class="carousel_modal">
-                                <ul class="carousel__list">
+                            <div class="carousel_modal1">
+                                <ul class="carousel__list1">
                                     <li class="carousel__item" data-pos="-2">1</li>
                                     <li class="carousel__item" data-pos="-1">2</li>
                                     <li class="carousel__item" data-pos="0">3</li>
@@ -409,6 +409,8 @@
                                     Trips</button>
                             </div>
                         </div>
+                        </div>
+                        
                         <div id="myModal8" class="modal">
 
                             <!-- Modal content -->
@@ -444,27 +446,20 @@
 
                             </div>
                             <!-- Modal content -->
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <main class="our-tours" id="our-tours">
         <div class="card" id="fishing-the-predator">
             <div class="content">
                 <h2 class="title">Fishing the predator<br></h2>
                 <p class="copy">Lorem Ipsum is simply dummy text of the printing</p><button id="myBtn" class="btn">View
                     Trips</button>
-                <div id="myModal" class="modal">
-
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>Some text in the Modal..</p>
-                    </div>
-
-                </div>
+                
             </div>
         </div>
         <div class="card" id="carpathian-encounter">
@@ -772,6 +767,7 @@
     <script src="js/disable-scroll.js"></script>
     <script src="js/carousel-modal.js"></script>
     <script src="js/script.js"></script>
+    <script src="/js/dynamic-loading.js"></script>
 
 </body>
 </html>

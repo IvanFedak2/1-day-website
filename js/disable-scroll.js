@@ -1,12 +1,16 @@
 document.getElementById('disable-scroll').addEventListener('click', () => {
+
+    // Remove overflow value from document body to restore default scrolling
     document.body.style.overflow = '';
  })
+
  document.getElementById('myBtn').addEventListener('click', () => {
+    // When scrolling is disabled, auto scroll to top of screen
+
+    // Apply overflow:hidden to document body to prevent scrolling
     document.body.style.overflow = 'hidden';
  })
 
-
- 
  document.getElementById('disable-scroll1').addEventListener('click', () => {
    document.body.style.overflow = '';
 })
