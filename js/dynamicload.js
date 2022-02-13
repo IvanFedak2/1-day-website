@@ -1,43 +1,43 @@
 const render = function() {
 	const arr = [
 		{
-			CardName:"Black Cheremosh rafting",
+			cardName:"Black Cheremosh rafting",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
 		{
-            CardName:"Paragliding",
+            cardName:"Paragliding",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
-			CardName:"Carpathian Trout",
+			cardName:"Carpathian Trout",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
-			CardName:"Pip Ivan adventure",
+			cardName:"Pip Ivan adventure",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
 			
-            CardName:"Kayaking on Dnister",
+            cardName:"Kayaking on Dnister",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
-            CardName:"Mushrooming",
+            cardName:"Mushrooming",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
-            CardName:"Carpathian encounter",
+            cardName:"Carpathian encounter",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		},
         {
-            CardName: "Fishing the predator",
+            cardName: "Fishing the predator",
 			paragraf: "Lorem Ipsum is simply dummy text of the printing",
 			buttonName: "View Tours"
 		}
@@ -52,7 +52,7 @@ const render = function() {
 			<div class = "carousel-block">
 				<div class = ${classe}>
 					<div class = "content" >
-						<h2 class = "title" >${arr[i].CardName}</h2>
+						<h2 class = "title" >${arr[i].cardName}</h2>
 						<p class ="copy">${arr[i].paragraf}</p>
 						<button id = ${buttonId} class="btn">${arr[i].buttonName}</button>
 				</div>

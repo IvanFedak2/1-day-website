@@ -1,13 +1,13 @@
 const state = {};
-const carouselList = document.querySelector('.carousel__list');
-const carouselItems = document.querySelectorAll('.carousel__item');
+const carouselList = document.querySelector('.carousel__list1');
+const carouselItems = document.querySelectorAll('.carousel__item1');
 const elems = Array.from(carouselItems);
 
 carouselList.addEventListener('click', function (event) {
   let newActive = event.target;
-  let isItem = newActive.closest('.carousel__item');
+  let isItem = newActive.closest('.carousel__item1');
 
-  if (!isItem || newActive.classList.contains('carousel__item_active')) {
+  if (!isItem || newActive.classList.contains('carousel__item1_active')) {
     return;
   };
   
@@ -23,7 +23,7 @@ const update = function(newActive) {
   const first = elems.find((elem) => elem.dataset.pos == -2);
   const last = elems.find((elem) => elem.dataset.pos == 2);
   
-  current.classList.remove('carousel__item_active');
+  current.classList.remove('carousel__item1_active');
   
   [current, prev, next, first, last].forEach(item => {
     let itemPos = item.dataset.pos;
