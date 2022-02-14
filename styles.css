@@ -120,7 +120,21 @@ img {
     flex-direction: row;
     justify-content:space-evenly;
     z-index: 10000;
+    animation: fadeInAnimation 3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+
+
 .desktop-navigation-link {
     text-decoration: none;
     color: white;
