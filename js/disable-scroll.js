@@ -1,16 +1,34 @@
-document.getElementById('disable-scroll').addEventListener('click', () => {
+// const scrollDisabler = function() {
+   
+// for(let i = 0; i <= 8; i++) {
 
-    // Remove overflow value from document body to restore default scrolling
+//    const scroll = `disable-scroll1${i+1}`
+//    const button = `myBtn1${i+1}`
+
+// document.getElementById(${scroll}).addEventListener('click', () => {
+//    document.body.style.overflow = '';
+// })
+// document.getElementById$(button).addEventListener('click', () => {
+//    document.body.style.overflow = 'hidden';
+// })
+
+// }
+// }
+// scrollDisabler ()
+
+
+
+
+
+document.getElementById('disable-scroll').addEventListener('click', () => {
     document.body.style.overflow = '';
  })
-
  document.getElementById('myBtn').addEventListener('click', () => {
-    // When scrolling is disabled, auto scroll to top of screen
-
-    // Apply overflow:hidden to document body to prevent scrolling
     document.body.style.overflow = 'hidden';
  })
 
+
+ 
  document.getElementById('disable-scroll1').addEventListener('click', () => {
    document.body.style.overflow = '';
 })

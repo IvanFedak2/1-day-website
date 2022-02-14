@@ -1,4 +1,5 @@
-$(document).on('click', ".carousel-button-right",function(){ 
+
+	$(document).on('click', ".carousel-button-right",function(){ 
 	let carusel = $(this).parents('.carousel');
 	right_carusel(carusel);
 	return false;
@@ -34,6 +35,3 @@ function auto_right(carusel){
 }
 $(document).on('mouseenter', '.carousel', function(){$(this).addClass('hover')})
 $(document).on('mouseleave', '.carousel', function(){$(this).removeClass('hover')})
-
-
-
