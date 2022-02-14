@@ -815,49 +815,50 @@ form button:hover {
 
 /*CARUSEL*/
 
-#works .carousel {
-    max-width: 1200px;
-    margin: 30px auto;
-    width: 100%;
-}
 
-#works .carousel-wrapper {
-    margin: 10px 10px;
-    overflow: hidden;
-    position: relative;
-}
-
-#works .carousel-items {
-    width: 10000px;
-    position: relative;
-}
-
-#works .carousel-block {
-    float: left;
-    width: 270px;
-    height: 100%;
-    overflow: hidden;
-    padding: 10px;
-}
-
-#works .carousel-block .work {
-    display: block;
-}
-
-#works .carousel-block .work img {
-    height: 200px;
-}
-
-#works .carousel-button-left a,
-#works .carousel-button-right a {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 150px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
+@media (min-width: 800px) {
+    #works .carousel {
+        max-width: 1200px;
+        margin: 30px auto;
+        width: 100%;
+    }
+    
+    #works .carousel-wrapper {
+        margin: 10px 10px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #works .carousel-items {
+        width: 10000px;
+        position: relative;
+    }
+    
+    #works .carousel-block {
+        float: left;
+        width: 270px;
+        height: 100%;
+        overflow: hidden;
+        padding: 10px;
+    }
+    
+    #works .carousel-block .work {
+        display: block;
+    }
+    
+    #works .carousel-block .work img {
+        height: 200px;
+    }
+    
+    #works .carousel-button-left a,
+    #works .carousel-button-right a {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top: 150px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 #works .carousel-button-left a {
     float: left;
     background: url(img/icons/chevron-left-solid.svg);
@@ -873,7 +874,8 @@ form button:hover {
     width: 30px;
     margin-left: 10px;
 }
-
+}
+/******************************/
 @media (min-width: 320px) {
     #works {
         display: none;
@@ -894,6 +896,7 @@ form button:hover {
     .btn-outline-light:focus {
         box-shadow: none;
     }
+}
     @media (min-width: 600px) {
         .our-tours {
             grid-template-columns: repeat(2, 1fr);
@@ -1195,7 +1198,7 @@ form button:hover {
         background-image: url(img/fishing.jpg);
         background-size: cover;
     }
-}
+
 
 #logo {
     position: absolute;

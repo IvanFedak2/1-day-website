@@ -27,3 +27,25 @@
 // 		`);
 // 	}
 //     renderMenu()
+
+
+
+// const resize = function(){
+
+//     (window).bind("resize", function(){
+//         console.log($(this).width())
+//         if($(this).width() < 800){
+//         document.getElementById('carousel').removeClass('carousel').addClass('')
+//         }
+//     })
+//     };
+
+//     resize()
+// const resize = function(){
+// window.onresize = function(event) {
+// 	console.log("x: " + window.innerWidth+"      y: " + window.innerHeight)
+//     if ($(this).width() < 800){
+// document.getElementById('carousel').removeClass('carousel').addClass('');}
+// }
+// }
+// resize()    
