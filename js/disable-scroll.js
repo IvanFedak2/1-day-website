@@ -23,7 +23,7 @@
 document.getElementById('disable-scroll').addEventListener('click', () => {
     document.body.style.overflow = '';
  })
- document.getElementById('myBtn').addEventListener('click', () => {
+ document.getElementById('myBtn0').addEventListener('click', () => {
     document.body.style.overflow = 'hidden';
  })
 

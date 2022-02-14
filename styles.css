@@ -19,7 +19,7 @@ body {
     width: 100vw;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
-
+ 
 img {
     height: 100%;
     width: auto; 
@@ -27,6 +27,7 @@ img {
 
 .header {
     background-image: url(img/hero.jpg);
+    width: auto;
     background-size: cover;
     height: 100vh;
 }
@@ -42,7 +43,7 @@ img {
     left: 74.5%;
     cursor: pointer;
     position: sticky;
-    z-index: 1000000000000000000000000;
+    z-index: 10000;
 }
 
 .burger_mobile {
