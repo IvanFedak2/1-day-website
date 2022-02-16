@@ -1,4 +1,6 @@
 
+	if (window.innerWidth > 800) {
+
 	$(document).on('click', ".carousel-button-right",function(){ 
 	let carusel = $(this).parents('.carousel');
 	right_carusel(carusel);
@@ -35,3 +37,4 @@ function auto_right(carusel){
 }
 $(document).on('mouseenter', '.carousel', function(){$(this).addClass('hover')})
 $(document).on('mouseleave', '.carousel', function(){$(this).removeClass('hover')})
+};
