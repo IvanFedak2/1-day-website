@@ -14,7 +14,7 @@ document.getElementById("body").insertAdjacentHTML(
                     <span id="disable-scroll" class="close0 close-menu">
                         <ul class="header_navigation_items">
                             <a href="#works" class="modal-menu-nav">About us</a>
-                            <a href="#our-tours" class="modal-menu-nav">Our tours</a>
+                            <a href="#works" class="modal-menu-nav">Our tours</a>
                             <a href="#footer" class="modal-menu-nav">Contact us</a>
                             <a href="#works" class="modal-menu-nav">Discount request</a>
                             <a href="#works" class="modal-menu-nav">Hot deals</a>
