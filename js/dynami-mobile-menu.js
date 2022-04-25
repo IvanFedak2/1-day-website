@@ -1,6 +1,6 @@
 const renderMenu = function() {
-		document.getElementById("header_first").insertAdjacentHTML('afterbegin',
-			`<div class="navbar-toggler">
+		document.getElementById("navbar-toggler").insertAdjacentHTML('afterbegin',
+			`
             <a class="burger_mobile" id="myBtn0"></a>
         </div>
         <div id="myModal0" class="modal">
