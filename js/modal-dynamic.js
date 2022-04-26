@@ -90,6 +90,7 @@ modalCarouselItem: "carousel__item8"
                                 </ul>
                             </div>
                             <p class="modal-text">${arr[i].modalText}</p>
+                            <button class="btn rotateBtn">Book this tour</button>
                         </div>
                     </div>
 		`);

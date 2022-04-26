@@ -1,104 +1,131 @@
 .modal {
-    position: fixed; /* Stay in place */
-    z-index: 1111111; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
-    animation-iteration-count: 1;
-  }
+  position: fixed; /* Stay in place */
+  z-index: 1111111; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  animation-iteration-count: 1;
+}
 
-  /* .remove-scrolling { 
+/* .remove-scrolling { 
     height: 100%; 
     overflow: hidden;
   }  */
-  
-  /* Modal Content */
-  .modal-content {
-    background-image: linear-gradient(-145deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 20s ease infinite;
-    background-size: 400% 400%;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 200px;
-    border-radius: 0%;
-  }
-  .modal-text {
-    align-self: center;
-  }
 
-
-
-
-
-  /* Add Animation */
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1;}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+/* Modal Content */
+.modal-content {
+  background-image: linear-gradient(
+    -145deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab
+  );
+  animation: gradient 20s ease infinite;
+  background-size: 400% 400%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  border-radius: 0%;
+}
+.modal-text {
+  align-self: center;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
 }
 
-  
-  /* The Close Button */
-  .close,
-  .close1,
-  .close2,
-  .close3,
-  .close4,
-  .close5,
-  .close6,
-  .close7,
-  .close8 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+.rotateBtn,
+.rotateBtn:active {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black !important;
+}
+.rotateBtn:active {
+  font-weight: 500;
+}
 
-  .close-menu {
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
   }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* The Close Button */
+.close,
+.close1,
+.close2,
+.close3,
+.close4,
+.close5,
+.close6,
+.close7,
+.close8 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .header_navigation_items {
   padding-left: 0 !important;
   text-decoration: none;
   margin-top: -50px !important;
 }
 .header_navigation {
-  display: flex;;
+  display: flex;
 }
-
 
 .modal-menu-nav:active {
   color: limegreen;
@@ -125,8 +152,8 @@
   background-color: black;
   border: none;
   left: -100px;
-    position: relative;
-    top: 50px
+  position: relative;
+  top: 50px;
 }
 
 @media (min-width: 800px) {
@@ -135,706 +162,695 @@
   }
 }
 
-  
-  .close:hover,
-  .close:focus,
-  .close1:hover,
-  .close1:focus,
-  .close2:hover,
-  .close2:focus,
-  .close3:hover,
-  .close3:focus,
-  .close4:hover,
-  .close4:focus,
-  .close5:hover,
-  .close5:focus,
-  .close6:hover,
-  .close6:focus,
-  .close7:hover,
-  .close7:focus,
-  .close8:hover,
-  .close8:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+.close:hover,
+.close:focus,
+.close1:hover,
+.close1:focus,
+.close2:hover,
+.close2:focus,
+.close3:hover,
+.close3:focus,
+.close4:hover,
+.close4:focus,
+.close5:hover,
+.close5:focus,
+.close6:hover,
+.close6:focus,
+.close7:hover,
+.close7:focus,
+.close8:hover,
+.close8:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*************ANIMATION FADEout****************/
-  .out {
+.out {
+  transform: scale(0);
+  animation: unfoldOut 0.5s;
+}
+@keyframes unfoldOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
     transform: scale(0);
-    animation: unfoldOut 0.5s;
   }
-  @keyframes unfoldOut {
-    0% {
-      transform:scale(1);
-    }
-    100% {
-      transform:scale(0);
-    }
-  }
+}
 
 /*****************************/
-  .carousel_modal1 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list1 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item1:nth-child(1) {
-    background-image: url(../img/modal-carousel/fishing-the-predator/goloven.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item1:nth-child(2) {
-    background-image: url(../img/modal-carousel/fishing-the-predator/perch.jpg);
-    background-size: cover;
-  }
-  .carousel__item1:nth-child(3) {
-    background-image: url(../img/modal-carousel/fishing-the-predator/pike.jpg);
-    background-size: cover;
-  }
-  .carousel__item1:nth-child(4) {
-    background-image: url(../img/modal-carousel/fishing-the-predator/som.jpg);
-    background-size: cover;
-  }
-  .carousel__item1:nth-child(5) {
-    background-image: url(../img/modal-carousel/fishing-the-predator/zander.jpg);
-    background-size: cover;
-  }
-  .carousel__item1[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item1[data-pos="-1"], .carousel__item[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item1[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item1[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item1[data-pos="-2"], .carousel__item[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item1[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item1[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
+.carousel_modal1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list1 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item1:nth-child(1) {
+  background-image: url(../img/modal-carousel/fishing-the-predator/goloven.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item1:nth-child(2) {
+  background-image: url(../img/modal-carousel/fishing-the-predator/perch.jpg);
+  background-size: cover;
+}
+.carousel__item1:nth-child(3) {
+  background-image: url(../img/modal-carousel/fishing-the-predator/pike.jpg);
+  background-size: cover;
+}
+.carousel__item1:nth-child(4) {
+  background-image: url(../img/modal-carousel/fishing-the-predator/som.jpg);
+  background-size: cover;
+}
+.carousel__item1:nth-child(5) {
+  background-image: url(../img/modal-carousel/fishing-the-predator/zander.jpg);
+  background-size: cover;
+}
+.carousel__item1[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item1[data-pos="-1"],
+.carousel__item[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item1[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item1[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item1[data-pos="-2"],
+.carousel__item[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item1[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item1[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
+.carousel_modal2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list2 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item2:nth-child(1) {
+  background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item2:nth-child(2) {
+  background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount2.jpeg);
+  background-size: cover;
+}
+.carousel__item2:nth-child(3) {
+  background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount3.jpg);
+  background-size: cover;
+}
+.carousel__item2:nth-child(4) {
+  background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount4.jpg);
+  background-size: cover;
+}
+.carousel__item2:nth-child(5) {
+  background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount5.jpg);
+  background-size: cover;
+}
+.carousel__item2[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item2[data-pos="-1"],
+.carousel__item2[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item2[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item2[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item2[data-pos="-2"],
+.carousel__item2[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item2[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item2[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
+.carousel_modal3 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list3 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item3:nth-child(1) {
+  background-image: url(../img/modal-carousel/mushrooming/mushroom1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item3:nth-child(2) {
+  background-image: url(../img/modal-carousel/mushrooming/mushroom2.jpg);
+  background-size: cover;
+}
+.carousel__item3:nth-child(3) {
+  background-image: url(../img/modal-carousel/mushrooming/mushroom3.jpg);
+  background-size: cover;
+}
+.carousel__item3:nth-child(4) {
+  background-image: url(../img/modal-carousel/mushrooming/mushroom4.jpg);
+  background-size: cover;
+}
+.carousel__item3:nth-child(5) {
+  background-image: url(../img/modal-carousel/mushrooming/mushroom5.jpg);
+  background-size: cover;
+}
+.carousel__item3[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item3[data-pos="-1"],
+.carousel__item3[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item3[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item3[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item3[data-pos="-2"],
+.carousel__item3[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item3[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item3[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
-  .carousel_modal2 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list2 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item2:nth-child(1) {
-    background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item2:nth-child(2) {
-    background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount2.jpeg);
-    background-size: cover;
-  }
-  .carousel__item2:nth-child(3) {
-    background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount3.jpg);
-    background-size: cover;
-  }
-  .carousel__item2:nth-child(4) {
-    background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount4.jpg);
-    background-size: cover;
-  }
-  .carousel__item2:nth-child(5) {
-    background-image: url(../img/modal-carousel/carpathian-encounter/winter-mount5.jpg);
-    background-size: cover;
-  }
-  .carousel__item2[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item2[data-pos="-1"], .carousel__item2[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item2[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item2[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item2[data-pos="-2"], .carousel__item2[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item2[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item2[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
+.carousel_modal4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list4 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item4:nth-child(1) {
+  background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item4:nth-child(2) {
+  background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota2.jpg);
+  background-size: cover;
+}
+.carousel__item4:nth-child(3) {
+  background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota3.jpg);
+  background-size: cover;
+}
+.carousel__item4:nth-child(4) {
+  background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota4.jpeg);
+  background-size: cover;
+}
+.carousel__item4:nth-child(5) {
+  background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota5.jpg);
+  background-size: cover;
+}
+.carousel__item4[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item4[data-pos="-1"],
+.carousel__item4[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item4[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item4[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item4[data-pos="-2"],
+.carousel__item4[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item4[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item4[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
+.carousel_modal5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list5 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item5:nth-child(1) {
+  background-image: url(../img/modal-carousel/pip-ivan/pip1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item5:nth-child(2) {
+  background-image: url(../img/modal-carousel/pip-ivan/pip2.jpeg);
+  background-size: cover;
+}
+.carousel__item5:nth-child(3) {
+  background-image: url(../img/modal-carousel/pip-ivan/pip3.jpg);
+  background-size: cover;
+}
+.carousel__item5:nth-child(4) {
+  background-image: url(../img/modal-carousel/pip-ivan/pip4.jpg);
+  background-size: cover;
+}
+.carousel__item5:nth-child(5) {
+  background-image: url(../img/modal-carousel/pip-ivan/pip5.png);
+  background-size: cover;
+}
+.carousel__item5[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item5[data-pos="-1"],
+.carousel__item5[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item5[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item5[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item5[data-pos="-2"],
+.carousel__item5[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item5[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item5[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
+.carousel_modal6 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list6 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item6:nth-child(1) {
+  background-image: url(../img/modal-carousel/carpathian-trout/trout1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item6:nth-child(2) {
+  background-image: url(../img/modal-carousel/carpathian-trout/trout2.jpg);
+  background-size: cover;
+}
+.carousel__item6:nth-child(3) {
+  background-image: url(../img/modal-carousel/carpathian-trout/trout3.jpg);
+  background-size: cover;
+}
+.carousel__item6:nth-child(4) {
+  background-image: url(../img/modal-carousel/carpathian-trout/trout4.jpg);
+  background-size: cover;
+}
+.carousel__item6:nth-child(5) {
+  background-image: url(../img/modal-carousel/carpathian-trout/trout5.jpg);
+  background-size: cover;
+}
+.carousel__item6[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item6[data-pos="-1"],
+.carousel__item6[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item6[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item6[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item6[data-pos="-2"],
+.carousel__item6[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item6[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item6[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
+.carousel_modal7 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list7 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item7:nth-child(1) {
+  background-image: url(../img/modal-carousel/paragliding/paro1.jpg);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item7:nth-child(2) {
+  background-image: url(../img/modal-carousel/paragliding/paro2.jpg);
+  background-size: cover;
+}
+.carousel__item7:nth-child(3) {
+  background-image: url(../img/modal-carousel/paragliding/paro3.jpg);
+  background-size: cover;
+}
+.carousel__item7:nth-child(4) {
+  background-image: url(../img/modal-carousel/paragliding/paro4.jpg);
+  background-size: cover;
+}
+.carousel__item7:nth-child(5) {
+  background-image: url(../img/modal-carousel/paragliding/paro5.jpg);
+  background-size: cover;
+}
+.carousel__item7[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item7[data-pos="-1"],
+.carousel__item7[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item7[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item7[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item7[data-pos="-2"],
+.carousel__item7[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item7[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item7[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
 
-
-
-
-
-
-
-
-
-
-  .carousel_modal3 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list3 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item3:nth-child(1) {
-    background-image: url(../img/modal-carousel/mushrooming/mushroom1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item3:nth-child(2) {
-    background-image: url(../img/modal-carousel/mushrooming/mushroom2.jpg);
-    background-size: cover;
-  }
-  .carousel__item3:nth-child(3) {
-    background-image: url(../img/modal-carousel/mushrooming/mushroom3.jpg);
-    background-size: cover;
-  }
-  .carousel__item3:nth-child(4) {
-    background-image: url(../img/modal-carousel/mushrooming/mushroom4.jpg);
-    background-size: cover;
-  }
-  .carousel__item3:nth-child(5) {
-    background-image: url(../img/modal-carousel/mushrooming/mushroom5.jpg);
-    background-size: cover;
-  }
-  .carousel__item3[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item3[data-pos="-1"], .carousel__item3[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item3[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item3[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item3[data-pos="-2"], .carousel__item3[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item3[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item3[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
-
-
-
-
-
-
-
-  .carousel_modal4 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list4 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item4:nth-child(1) {
-    background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item4:nth-child(2) {
-    background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota2.jpg);
-    background-size: cover;
-  }
-  .carousel__item4:nth-child(3) {
-    background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota3.jpg);
-    background-size: cover;
-  }
-  .carousel__item4:nth-child(4) {
-    background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota4.jpeg);
-    background-size: cover;
-  }
-  .carousel__item4:nth-child(5) {
-    background-image: url(../img/modal-carousel/kayaking-on-dnister/bakota5.jpg);
-    background-size: cover;
-  }
-  .carousel__item4[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item4[data-pos="-1"], .carousel__item4[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item4[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item4[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item4[data-pos="-2"], .carousel__item4[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item4[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item4[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
-
-
-  .carousel_modal5 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list5 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item5:nth-child(1) {
-    background-image: url(../img/modal-carousel/pip-ivan/pip1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item5:nth-child(2) {
-    background-image: url(../img/modal-carousel/pip-ivan/pip2.jpeg);
-    background-size: cover;
-  }
-  .carousel__item5:nth-child(3) {
-    background-image: url(../img/modal-carousel/pip-ivan/pip3.jpg);
-    background-size: cover;
-  }
-  .carousel__item5:nth-child(4) {
-    background-image: url(../img/modal-carousel/pip-ivan/pip4.jpg);
-    background-size: cover;
-  }
-  .carousel__item5:nth-child(5) {
-    background-image: url(../img/modal-carousel/pip-ivan/pip5.png);
-    background-size: cover;
-  }
-  .carousel__item5[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item5[data-pos="-1"], .carousel__item5[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item5[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item5[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item5[data-pos="-2"], .carousel__item5[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item5[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item5[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
-
-
-
-
-
-
-  .carousel_modal6 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list6 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item6 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item6:nth-child(1) {
-    background-image: url(../img/modal-carousel/carpathian-trout/trout1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item6:nth-child(2) {
-    background-image: url(../img/modal-carousel/carpathian-trout/trout2.jpg);
-    background-size: cover;
-  }
-  .carousel__item6:nth-child(3) {
-    background-image: url(../img/modal-carousel/carpathian-trout/trout3.jpg);
-    background-size: cover;
-  }
-  .carousel__item6:nth-child(4) {
-    background-image: url(../img/modal-carousel/carpathian-trout/trout4.jpg);
-    background-size: cover;
-  }
-  .carousel__item6:nth-child(5) {
-    background-image: url(../img/modal-carousel/carpathian-trout/trout5.jpg);
-    background-size: cover;
-  }
-  .carousel__item6[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item6[data-pos="-1"], .carousel__item6[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item6[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item6[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item6[data-pos="-2"], .carousel__item6[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item6[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item6[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
-
-  .carousel_modal7 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list7 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item7 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item7:nth-child(1) {
-    background-image: url(../img/modal-carousel/paragliding/paro1.jpg);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item7:nth-child(2) {
-    background-image: url(../img/modal-carousel/paragliding/paro2.jpg);
-    background-size: cover;
-  }
-  .carousel__item7:nth-child(3) {
-    background-image: url(../img/modal-carousel/paragliding/paro3.jpg);
-    background-size: cover;
-  }
-  .carousel__item7:nth-child(4) {
-    background-image: url(../img/modal-carousel/paragliding/paro4.jpg);
-    background-size: cover;
-  }
-  .carousel__item7:nth-child(5) {
-    background-image: url(../img/modal-carousel/paragliding/paro5.jpg);
-    background-size: cover;
-  }
-  .carousel__item7[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item7[data-pos="-1"], .carousel__item7[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item7[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item7[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item7[data-pos="-2"], .carousel__item7[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item7[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item7[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
-
-  .carousel_modal8 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    font-family: Arial;
-    transform: rotate(90deg);
-    zoom: 140%;
-  }
-  .carousel__list8 {
-    display: flex;
-    list-style: none;
-    position: relative;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    perspective: 300px;
-  }
-  .carousel__item8 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 0px;
-    width: 150px;
-    height: 250px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
-    position: absolute;
-    transition: all 0.3s ease-in;
-  }
-  .carousel__item8:nth-child(1) {
-    background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak1.png);
-    background-size: cover;
-    background-position: 85% 95%;
-  }
-  .carousel__item8:nth-child(2) {
-    background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak2.jpg);
-    background-size: cover;
-  }
-  .carousel__item8:nth-child(3) {
-    background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak3.jpg);
-    background-size: cover;
-  }
-  .carousel__item8:nth-child(4) {
-    background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak4.jpg);
-    background-size: cover;
-  }
-  .carousel__item8:nth-child(5) {
-    background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak5.jpg);
-    background-size: cover;
-  }
-  .carousel__item8[data-pos="0"] {
-    z-index: 5;
-  }
-  .carousel__item8[data-pos="-1"], .carousel__item8[data-pos="1"] {
-    opacity: 0.7;
-    filter: blur(1px) grayscale(10%);
-  }
-  .carousel__item8[data-pos="-1"] {
-    transform: translateX(-40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item8[data-pos="1"] {
-    transform: translateX(40%) scale(0.9);
-    z-index: 4;
-  }
-  .carousel__item8[data-pos="-2"], .carousel__item8[data-pos="2"] {
-    opacity: 0.4;
-    filter: blur(3px) grayscale(20%);
-  }
-  .carousel__item8[data-pos="-2"] {
-    transform: translateX(-70%) scale(0.8);
-    z-index: 3;
-  }
-  .carousel__item8[data-pos="2"] {
-    transform: translateX(70%) scale(0.8);
-    z-index: 3;
-  }
+.carousel_modal8 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  font-family: Arial;
+  transform: rotate(90deg);
+  zoom: 140%;
+}
+.carousel__list8 {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+.carousel__item8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 150px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+.carousel__item8:nth-child(1) {
+  background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak1.png);
+  background-size: cover;
+  background-position: 85% 95%;
+}
+.carousel__item8:nth-child(2) {
+  background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak2.jpg);
+  background-size: cover;
+}
+.carousel__item8:nth-child(3) {
+  background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak3.jpg);
+  background-size: cover;
+}
+.carousel__item8:nth-child(4) {
+  background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak4.jpg);
+  background-size: cover;
+}
+.carousel__item8:nth-child(5) {
+  background-image: url(../img/modal-carousel/black-cheremosh-rafting/cayak5.jpg);
+  background-size: cover;
+}
+.carousel__item8[data-pos="0"] {
+  z-index: 5;
+}
+.carousel__item8[data-pos="-1"],
+.carousel__item8[data-pos="1"] {
+  opacity: 0.7;
+  filter: blur(1px) grayscale(10%);
+}
+.carousel__item8[data-pos="-1"] {
+  transform: translateX(-40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item8[data-pos="1"] {
+  transform: translateX(40%) scale(0.9);
+  z-index: 4;
+}
+.carousel__item8[data-pos="-2"],
+.carousel__item8[data-pos="2"] {
+  opacity: 0.4;
+  filter: blur(3px) grayscale(20%);
+}
+.carousel__item8[data-pos="-2"] {
+  transform: translateX(-70%) scale(0.8);
+  z-index: 3;
+}
+.carousel__item8[data-pos="2"] {
+  transform: translateX(70%) scale(0.8);
+  z-index: 3;
+}
