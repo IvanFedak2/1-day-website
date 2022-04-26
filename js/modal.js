@@ -1,5 +1,5 @@
 const openModalWindow = function () {
-  console.log(document.getElementById('myModal1'))
+  
   
   for(i = 0; i <= 8; i++) { 
   
@@ -7,7 +7,7 @@ const openModalWindow = function () {
   const modalId = `myModal${i}`
   const closeClass = `close${i}`
 
-  console.log(btnId, modalId, closeClass)
+ 
 
   document.getElementById(btnId).onclick = function () {
   $(document.getElementById(modalId)).removeClass('out');
