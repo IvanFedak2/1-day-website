@@ -76,7 +76,7 @@ document.getElementById("header-first").insertAdjacentHTML(
         </nav>
     </header>
     <div id="works">
-        <div class="carousel slide hidden-xs" id="carousel" data-ride=carousel>
+        <div class="slide hidden-xs" id="carousel" data-ride=carousel>
             <div class="carousel-button-left carousel-button-positioning-left">
                 <a href="#"></a>
             </div>
