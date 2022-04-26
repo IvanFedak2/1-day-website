@@ -855,9 +855,8 @@ form button:hover {
     .carousel-items {
     display: grid;
     grid-gap: 0.8rem;
-    padding: 1rem 0 1rem 0;
-    /* max-width: fit-content; */
-    overflow-x: hidden;
+    padding: 1rem;
+    max-width: fit-content;
     margin: 0 0;
     font-family: var(--font-sans);
     }
